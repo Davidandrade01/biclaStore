@@ -1,0 +1,68 @@
+@import 'variables';
+
+.container{
+    display: flex;
+    gap: 16px ;
+    justify-content: center;
+    margin-bottom: 32px;
+    margin-top: 32px;
+
+    .service_box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+        .img_box{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 88px;
+            width: 88px;
+            padding:4px;
+            border: 1px solid $border-color;
+            border-radius: 8px;
+            margin-bottom: 8px;
+            
+            .imgfit {
+                display: block;
+                width: 100%;
+                height: 100%;
+                border-radius: 8px;                
+                
+              }
+
+        }
+    }
+
+
+ 
+
+}
+
+
+@media(min-width:750px){
+    .container{
+        margin-bottom: 32px;
+        .service_box{
+            .img_box{
+                height: 200px;
+                width: 200px;
+                padding:8px;
+            }
+        
+    }
+}}
+
+
+@media(min-width:950px){
+    .container{
+        .service_box{
+            .img_box{
+                height: 400px;
+                width: 400px;
+                padding:8px;
+            }
+        
+    }
+}}

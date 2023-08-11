@@ -1,0 +1,24 @@
+$primary_color:#FF7802;
+$neutral-color1:#ffff;
+$neutral-color2:#000;
+$bg-color1:#191919;
+$border-color:#686F74;
+$active-colo:#1B4B82;
+
+
+$tablet: 750px;
+$desktop: 960px;
+$desktoplg: 1400px;
+
+$gridcolumns: 6;
+$gridgutter: 16px;
+
+$gridwidth: calc(100% - #{$gridgutter});
+$gridwidtht: calc(90% - #{$gridgutter});
+$gridwidthd: $desktop - $gridgutter * 2;
+$gridwidthdlg: $desktoplg - $gridgutter * 3;
+
+$basefontsizemobile: $gridgutter / 3 * 2;
+$basefontsizetablet: $gridgutter / 3 * 2 + 1;
+$basefontsizedesktop: $gridgutter / 3 * 2 + 2;
+

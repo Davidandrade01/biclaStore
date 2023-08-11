@@ -1,0 +1,29 @@
+@import 'variables';
+.container{
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    
+
+    button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 64px;
+        width: 64px;
+        background-color: $neutral-color1;
+        margin-right: 0px;
+        
+        border: none;
+        
+    }
+    
+    input{
+        outline: 0;
+        border: none;
+        height: 64px;
+        width: calc(100% - 80px );
+    }
+
+    
+}

@@ -1,0 +1,25 @@
+@import 'variables';
+
+.container{
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 100vw;
+    height: 99px;
+    background-color: $bg-color1 ;
+    font-family: 'Roboto';
+    margin-bottom: 32px;
+    color: white;
+    
+    
+    .icon_box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+   
+}

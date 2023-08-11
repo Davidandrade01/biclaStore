@@ -1,0 +1,150 @@
+@import 'variables';
+.container{
+    width: calc(100% - 64px);
+    margin-left: 32px;
+    column-count: 3;
+    column-width: 33%;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    padding: 0, 16px;
+
+   
+
+    .img_card{
+        -webkit-transition: all 350ms ease;
+        transition: all 350ms ease;
+        cursor: pointer;
+        margin-bottom: 16px;
+        position: relative;
+
+        span{
+            position: absolute;
+            bottom: 8px;
+            margin-left: 8px;
+            color: $neutral-color1;
+            
+            
+          }
+            
+          .span_box{
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            display: flex;
+            flex-direction: column;
+        .span2{
+                font-family: bruno ace;   
+                top:25%
+
+            }
+         
+            
+          }
+
+          .span3{
+                  
+            bottom: 10%;
+            right: 10%;
+
+        }
+
+
+        .paragraph{
+            color: #000;
+        font-family: Bruno Ace;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%; /* 60% */
+        }
+
+        &:hover{
+           opacity: .8;
+        }
+        .imgfit {
+         
+            display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;  
+           
+                           
+            
+          }
+    }
+}
+
+@media(max-width:950px){
+    .container{
+        column-count: 2;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        
+    }    
+  
+}
+
+
+
+
+.container2{
+    
+    width: calc(100% - 64px);
+    margin:16px 32px  ;
+    column-count: 1;
+    column-width: 50%;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    -webkit-column-width: 50%;
+    -moz-column-width: 50%;
+    padding: 0, 16px;
+
+
+
+
+
+    .img_card{
+        position: relative;
+        -webkit-transition: all 350ms ease;
+        transition: all 350ms ease;
+        cursor: pointer;
+        margin-bottom: 16px;
+
+        span{
+            position: absolute;
+            bottom: 8px;
+            margin-left: 8px;
+            color: $neutral-color1;
+            
+            
+          }
+            
+            
+        &:hover{
+           opacity: .8;
+        }
+        .imgfit2{
+            display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;  
+ 
+                           
+            
+          }
+    }
+}
+
+@media(max-width:950px){
+    .container{
+        column-count: 2;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        
+    }    
+  
+}
+
+

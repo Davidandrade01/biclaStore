@@ -1,0 +1,58 @@
+@import 'variables';
+
+.container{
+    width: 100vw;
+    height: 144px;
+    background-color: $bg-color1 ;
+    font-family: 'Roboto', 'bruno ace';
+    
+    
+
+
+    .logo_box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 16px 0 16px;
+        margin-bottom: 8px;
+
+        
+        .logo{
+            font-family:'Bruno ace';
+            font-size: 31px;
+            color: $primary-color;
+        }
+
+        .lang_box{
+            width: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            span{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 4px;
+                font-family: 'Bruno ace';
+                font-size: 14px;
+                color: $border-color;
+                width: 28px;
+                height: 28px;
+                border: .5px solid $border-color;
+                border-radius: 4px;
+                background-color: $neutral-color1;
+
+
+
+            }
+        }
+    }
+}
+
+
+@media(min-width:750px){
+    .icon{
+        display: none;
+    }
+}
