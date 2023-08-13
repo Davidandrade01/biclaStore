@@ -14,12 +14,12 @@ export default function Home() {
      
       
       <main>
-      
+    
     <Servicegallery/>
     <Slides/>
     <Herogallery/>
     <Deliveryfeatures/>
-      
+   
       </main>
     </>
   )
