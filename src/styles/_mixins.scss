@@ -1,0 +1,55 @@
+@import 'variables';
+
+//Fonts//
+
+@mixin roboto_subtitle2{
+    
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; 
+    letter-spacing: 0.014px;
+    }
+
+
+@mixin Roboto_Body2 {
+    
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 15px; 
+letter-spacing: 0.035px;
+}
+
+@mixin roboto_button{
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px; /* 128.571% */
+letter-spacing: 0.175px;
+
+}
+
+
+
+
+@mixin btnsmall {
+
+                @include roboto_button; 
+                border-radius: 8px;
+                display: flex;
+                width: 88px;
+                height: 37px;
+                padding: 10px;
+                justify-content: center;
+                align-items: flex-start;
+                gap: 10px;
+                flex-shrink: 0;
+                border: none;
+                color: $neutral-color1;
+                font-family: Roboto;
+
+}

@@ -1,0 +1,70 @@
+@import 'variables';
+@import 'mixins';
+
+
+.container{
+    width: 399px;
+    height: 244px;
+    border: 1px solid black;
+    margin: 16px;
+    display: flex;
+    gap: 8px;
+
+
+
+    .image_box{
+        width: 50%;
+        height: 100%;
+        border: 1px solid green;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .info_box{
+        width: 50%;
+        height: 100%;
+        border: 1px solid red;
+
+
+        .price{
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .description{
+            
+            
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            overflow: hidden;
+            -webkit-box-orient: vertical; 
+            margin-bottom: 24px;
+          
+
+        }
+
+
+        .btn_box{
+            display: flex;
+            gap: 16px;
+            
+            .btn_cta{
+                @include btnsmall ;
+                
+                background-color: $primary_color;
+                border: none;
+                
+                
+            }
+
+            .btn2{
+                @include btnsmall ;    
+                background-color:$border-color
+            }
+
+        }
+    }
+}

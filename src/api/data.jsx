@@ -1,8 +1,9 @@
 const data ={
     products:[
         {
-        name: ": S-Works Stumpjumper Evo" ,
-        image:'/images/apibikes/stumpjumperevo1.png',
+        id:1,
+        name: "S-Works Stumpjumper Evo" ,
+        image:'/images/apibikes/stumpjumper.png',
            
         logo:"/images/apibikes/logospecialized.png",
         brand:"Specialized" ,
@@ -20,9 +21,9 @@ const data ={
         
         },   
         
-        {
+        {   id:2,
             name: "Cube Aim Ex" ,
-            image:'/images/apibikes/cubeaimex.png',
+            image:'/images/apibikes/cubeaime.png',
             logo:"/images/apibikes/logocube.png",
             brand: "Cube" ,
             price:"€ 732,00",
@@ -39,9 +40,9 @@ const data ={
             
             },
 
-            {
+            {   id:3,
                 name: "SCOTT GENIUS 900 " ,
-                image:"/images/apibikes/scottgenius900.png",
+                image:"/images/apibikes/scottgenius.png",
                 logo:"/images/apibikes/logoscott.png",
                 brand: "Scott",
                 price:"€ 5.700,00" ,
@@ -58,9 +59,9 @@ const data ={
                 
                 },
 
-                {
+                {   id:4,
                     name:"Cube Cross Race C:62"  ,
-                    image:"/images/apibikes/crossracec62.png",
+                    image:"/images/apibikes/cubecross.png",
                     logo:"/images/apibikes/logoscott.png",
                     brand:"Cube" ,
                     price:"€ 4.699,00" ,
@@ -77,9 +78,9 @@ const data ={
                     
                     },
 
-                    {
+                    {   id:5,
                         name: "2020 S-Works Venge"  ,
-                        image:"/images/apibikes/crossracec62.png",
+                        image:"/images/apibikes/sworksvenge.png",
                         logo:"/images/apibikes/logospecialized.png",
                         brand: "Specialized" ,
                         price: "€ 11.299,00" ,
@@ -96,7 +97,7 @@ const data ={
                         
                         },
 
-                        {
+                        {   id:6,
                             name: "SCOTT FOIL RC 20"  ,
                             image:"/images/apibikes/scottfoilrc20.png",
                             logo:"/images/apibikes/logoscott.png",
