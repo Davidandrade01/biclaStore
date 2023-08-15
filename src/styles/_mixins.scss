@@ -23,6 +23,16 @@ line-height: 15px;
 letter-spacing: 0.035px;
 }
 
+
+@mixin Roboto_Headline5 {
+    font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 42px; /* 175% */
+}
+
+
 @mixin roboto_button{
 font-family: Roboto;
 font-size: 14px;

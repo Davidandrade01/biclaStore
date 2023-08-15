@@ -65,7 +65,7 @@ const data ={
                     logo:"/images/apibikes/logoscott.png",
                     brand:"Cube" ,
                     price:"€ 4.699,00" ,
-                    category: "Road(Cross Race)",
+                    category: "Road",
                     shortdescription: "Progress never sleeps. The brand-new Cross Race C:68X® frame was developed in conjunction with Wanty's cyclocross team, and also took inspiration from our high-end carbon race bikes.",
                     longdescription: "longdescription: Progress never sleeps. The brand-new Cross Race C:68X® frame was developed in conjunction with Wanty's cyclocross team, and also took inspiration from our high-end carbon race bikes. The result is a perfectly honed structure, crafted from our top-end C:68X® carbon material for a frame that weighs less than 900g - 200g lighter than it did before. It's still just as strong, just as stiff and just as easy to pick up and carry. It's just very, very light. An integrated seatpost clamp, Di2 cable-routing option and integrated stem with cables routed through the headset complete the package. Ready for the podium?",
                     features:[

@@ -1,0 +1,19 @@
+@import 'variables';
+@import 'mixins';
+
+.back{
+    @include Roboto_Body2;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-left: 11px;
+    gap: 8px;
+    margin-bottom: 16px;
+    
+}
+
+.category_page{
+    @include Roboto_Headline5;
+    display: flex;
+    justify-content: center;
+}

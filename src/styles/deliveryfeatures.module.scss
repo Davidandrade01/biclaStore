@@ -1,14 +1,14 @@
 @import 'variables';
 
 .container{
-    margin-top: 2px;
+    
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 
     width: 100vw;
     height: 99px;
-    background-color: $bg-color1 ;
+    background-color: $neutral-color2 ;
     font-family: 'Roboto';
     margin-bottom: 32px;
     color: white;

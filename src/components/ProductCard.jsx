@@ -2,6 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 
+
 //styles
 import styles from '../styles/productcard.module.scss'
 
@@ -12,8 +13,11 @@ import styles from '../styles/productcard.module.scss'
 export default function ProductCard({bike}) {
   return (
     <> 
+   
+
     <div className={styles.container}>
 
+    
 
       <div className={styles.image_box}>
         <p style={{marginBottom:'16px'}} >{bike.name}</p>
