@@ -13,10 +13,10 @@ import { Slideslogo } from '@/components/Slideslogo';
 import Socialbar from '@/components/Socialbar';
 
 //styles
-import styles  from '../styles/road.module.scss'
+import styles  from '../styles/moutain.module.scss'
 
 
-export default function roadpage() {
+export default function Mountainpage() {
 
   {/*const mountainProducts = data.products.filter(bike => bike.category === "Mountain"); Regra alternativa para renderização condicional*/}
 
@@ -36,12 +36,12 @@ export default function roadpage() {
         </Link>
         
         <div className={styles.category_page}>
-       <span> Road</span>
+       <span> Mountain</span>
         </div>
       
       {data.products.map((bike) => (
        
-       bike.category === "Road" &&(
+       bike.category === "Mountain" &&(
       
         <div>
          <ProductCard bike={bike} key={bike.id}/>
