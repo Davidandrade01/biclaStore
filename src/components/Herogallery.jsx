@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 import style from '../styles/hero.module.scss'
 export default function 
@@ -28,15 +29,19 @@ div() {
           <span>Gravel</span>
         </div>
 
-        <div className={style.img_card}>
-          <img className= {style.imgfit} src="/images/bikes/road.jpg" alt="Road Bike" />
-          <span>Road</span>
-        </div>
+        <Link href='/roadpage'>
+          <div className={style.img_card}>
+            <img className= {style.imgfit} src="/images/bikes/road.jpg" alt="Road Bike" />
+            <span>Road</span>
+          </div>
+        </Link>
 
-        <div className={style.img_card}>
-          <img className= {style.imgfit} src="/images/bikes/mountain.jpg" alt="Mountain Bike" />
-          <span>Mountain</span>
-        </div>
+        <Link href='/mountainpage'>
+          <div className={style.img_card}>
+            <img className= {style.imgfit} src="/images/bikes/mountain.jpg" alt="Mountain Bike" />
+            <span>Mountain</span>
+          </div>
+        </Link>
 
         
     </div>

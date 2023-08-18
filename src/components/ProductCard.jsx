@@ -1,6 +1,7 @@
 //React
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 
 //styles
@@ -13,16 +14,24 @@ import styles from '../styles/productcard.module.scss'
 export default function ProductCard({bike}) {
   return (
     <> 
-   
+    <Link href={`/product/${bike.id}`}>
 
     <div className={styles.container}>
 
     
 
-      <div className={styles.image_box}>
-        <p style={{marginBottom:'16px'}} >{bike.name}</p>
-        <Image className={styles.img} src={bike.image} width={191} height={144}/>
-      </div>
+   
+        <div className={styles.image_box}>
+          <p style={{marginBottom:'16px'}} >{bike.name}</p>
+         
+          
+          <Image className={styles.img} src={bike.image} width={191} height={144}/>
+          
+          
+        </div>
+
+   
+      
       
 
       <div className={styles.info_box}>
@@ -50,7 +59,7 @@ export default function ProductCard({bike}) {
       </div>
        
     </div>
-    
+    </Link>
     </>
   )
 }

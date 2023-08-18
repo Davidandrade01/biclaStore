@@ -2,6 +2,7 @@ const data ={
     products:[
         {
         id:1,
+      
         name: "S-Works Stumpjumper Evo" ,
         image:'/images/apibikes/stumpjumper.png',
            
@@ -21,7 +22,8 @@ const data ={
         
         },   
         
-        {   id:2,
+        {  
+           
             name: "Cube Aim Ex" ,
             image:'/images/apibikes/cubeaime.png',
             logo:"/images/apibikes/logocube.png",
@@ -42,6 +44,7 @@ const data ={
 
             {   id:3,
                 name: "SCOTT GENIUS 900 " ,
+                
                 image:"/images/apibikes/scottgenius.png",
                 logo:"/images/apibikes/logoscott.png",
                 brand: "Scott",
@@ -60,6 +63,7 @@ const data ={
                 },
 
                 {   id:4,
+                    
                     name:"Cube Cross Race C:62"  ,
                     image:"/images/apibikes/cubecross.png",
                     logo:"/images/apibikes/logoscott.png",
@@ -79,6 +83,7 @@ const data ={
                     },
 
                     {   id:5,
+                       
                         name: "2020 S-Works Venge"  ,
                         image:"/images/apibikes/sworksvenge.png",
                         logo:"/images/apibikes/logospecialized.png",
@@ -98,6 +103,7 @@ const data ={
                         },
 
                         {   id:6,
+                           
                             name: "SCOTT FOIL RC 20"  ,
                             image:"/images/apibikes/scottfoilrc20.png",
                             logo:"/images/apibikes/logoscott.png",

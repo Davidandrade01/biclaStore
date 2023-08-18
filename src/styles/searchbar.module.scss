@@ -23,7 +23,29 @@
         border: none;
         height: 64px;
         width: calc(100% - 80px );
+        transition: background-color 0.5s ease-in;
+        color:$border-color;
+
+     
+    }
+    input:focus{
+        background-color: rgb(207, 204, 204);
+    }
+    .search_results{
+        border:none;
+        background-color: white;
+        width: calc(100% - 31px );
+        position: absolute;
+        margin-top: 170px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        gap: 4px;
+        color:$border-color ;
+        
+       
     }
 
     
+   
 }
