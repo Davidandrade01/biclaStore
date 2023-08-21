@@ -4,7 +4,8 @@ import React from 'react'
 
 const ItemDetails = () => {
   const router = useRouter();
-  const  {cacete}  = router.query;
+  console.log(router)
+  const  cacete  = Number(router.query.detail);// Aqui converti para a busca da query para number, pois o array data nao possui "" nos id´s . E entrei no objeto (query.detail)da query para em seguida igualar com a constante item.
   const item = data.products.find(item => item.id === (cacete));
 
   if (!item) {
@@ -13,9 +14,14 @@ const ItemDetails = () => {
 
   return (
     <div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
       <h2>Item Details</h2>
+      
       <h1>{item.name}</h1>
-      <p>{item.description}</p>
+      <p>{item.shortdescription}</p>
     </div>
   );
 };

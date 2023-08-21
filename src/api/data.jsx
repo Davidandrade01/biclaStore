@@ -25,6 +25,7 @@ const data ={
         {  
            
             name: "Cube Aim Ex" ,
+            id:2,
             image:'/images/apibikes/cubeaime.png',
             logo:"/images/apibikes/logocube.png",
             brand: "Cube" ,

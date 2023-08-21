@@ -1,9 +1,18 @@
+//React
+import Link from 'next/link';
 import React, { useState } from 'react';
+
+//Styles
+import styles from '../styles/searchbar.module.scss'; 
+
+//Components
 import { GoSearch } from 'react-icons/go';
 import data from '../api/data';
-import styles from '../styles/searchbar.module.scss'; 
-import Link from 'next/link';
+
+
 import Searchresults from './Searchresults';
+
+
 
 export default function Searchbar() {
   const [busca, setBusca] = useState('');
@@ -11,8 +20,18 @@ export default function Searchbar() {
 
   const filteredBikes = data.products.filter((item) =>
     item.name.toLowerCase().includes(busca.toLowerCase())
+
+    
   );
 
+  function handleChange(e){
+    
+    const {value}=e.target
+    
+    setBusca(value);
+    
+    }
+ 
   return (
     <div className={styles.container}>
       <button>
@@ -22,13 +41,13 @@ export default function Searchbar() {
       <input
         type="search"
         value={busca}
-        onChange={(e) => setBusca(e.target.value)}
+        onChange={handleChange}
       />
       
       <ul className={styles.search_results}>
         {filteredBikes.map((item) => (
           
-            <Searchresults item={item}/>
+          <Searchresults key={item.id} item={item}/>
           
         ))}
       </ul>
